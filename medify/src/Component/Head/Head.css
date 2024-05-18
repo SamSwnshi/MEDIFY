@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.heading-img {
+  width: 585px;
+  height: 481px;
+}
+.intro {
+  color: rgba(16, 40, 81, 1);
+  font-size: 31px;
+  letter-spacing: 2%;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.paragraph {
+  width: 570px;
+  height: 64px;
+  color: rgba(92, 97, 105, 1);
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+.medical {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0.02em;
+}
+.centers {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0.02em;
+  color: rgba(42, 167, 255, 1);
+}
+.centersbtn {
+  width: 177px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(42, 168, 255, 1);
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+

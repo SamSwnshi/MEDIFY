@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.rapper {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-items: space-between;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+.logoImg {
+  width: 92px;
+  height: 27px;
+}
+.bookingbtn {
+  width: 130px;
+  height: 40px;
+  border: none;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(42, 168, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: .02em;
+  font-weight: 500;
+  cursor: pointer;
+}
