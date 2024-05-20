@@ -6,4 +6,21 @@
     #e7f0ff 9.01%,
     rgba(232, 241, 255, 0.47) 89.11%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.patient-body{
+  width: 1153px;
+height: 486px;
+border: 1px solid red;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.patient-details{
+  width: 563px;
+  height: 375px;
+  border: 1px solid red;
 }

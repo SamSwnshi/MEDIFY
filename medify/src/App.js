@@ -22,7 +22,7 @@ function App() {
       </div>
       <Home/>
       <Offers/>
-      <Specialisation/>
+      {/* <Specialisation/> */}
       <Medical/>
       <Patient/>
       <Blog/>

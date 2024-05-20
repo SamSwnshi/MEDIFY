@@ -18,7 +18,7 @@ const Blog = () => {
           <h4 className="blog">Blog & News</h4>
         
      
-          <h3 className="faq">Frequently Asked Question</h3>
+          <h3 className="blog-faq">Frequently Asked Question</h3>
         
       </div>
       <div className="card">
