@@ -1,23 +1,73 @@
-.form-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid red;
-}
-
-.form {
-  width: 1255px;
-  height: 429px;
-  border-radius: 1px;
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  width: 1170px !important;
+  height: 429px !important;
   background: rgba(255, 255, 255, 1);
+  z-index: 999;
+  margin-top: -180px;
+  margin-left: 200px;
+  box-shadow: 6px 6px 35px 0px rgba(16, 40, 81, 0.11);
+}
+.heading-form {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+
+  color: rgba(16, 40, 81, 1);
+}
+.form-tag {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.form {
+  border-radius: 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
 }
+.form-input {
+  width: 285px;
+  height: 50px;
+  border-radius: 8px;
+  background: rgba(250, 251, 254, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+}
+::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  padding-left: 10px;
+  text-align: start;
+  color: rgba(171, 182, 199, 1);
+}
+.form-search {
+  width: 121px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(42, 168, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+}
 .cards {
-  width: 203px;
+  width: 203px !important;
   height: 153px;
   background: rgba(250, 251, 254, 1);
   border-radius: 8px;
@@ -25,12 +75,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1ps solid red !important;
 }
-.card-container {
-  display: flex;
-  gap: 20px;
-}
+
 .image {
   width: 60px;
   height: 60px;
+}
+.form-card-name{
+ 
+height: 27px;
+color: rgba(171, 182, 199, 1);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.02em;
+text-align: center;
+
 }

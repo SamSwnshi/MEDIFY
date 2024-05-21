@@ -1,6 +1,7 @@
 import React from "react";
 import homePic from "../assets/homeImg.png";
 import "./Head.css";
+import Form from "../Form/Form"
 
 const Head = () => {
   return (
@@ -24,7 +25,7 @@ const Head = () => {
           <img src={homePic} alt="headingImage" className="heading-img" />
         </div>
       </div>
-     
+     <Form/>
     </div>
   );
 };

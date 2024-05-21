@@ -5,8 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-import Avatar from "@mui/material/Avatar";
-import CardHeader from "@mui/material/CardHeader";
+
 
 import detox from "../assets/latestnews.png";
 import dr from "../assets/avatar-img.png";
@@ -21,7 +20,7 @@ const Blog = () => {
           <h3 className="blog-faq">Frequently Asked Question</h3>
         
       </div>
-      <div className="card">
+      <div className="blog-card">
         <Card className="card-box">
           <CardActionArea>
             <CardMedia
@@ -35,7 +34,10 @@ const Blog = () => {
               <Typography variant="h7" className="text-details">
                 6 Tips To Protect Your Mental Health When You’re Sick
               </Typography>
-              <CardHeader avatar={<Avatar src={dr} />} title="Rebecca Lee" className="name"/>
+              <div className="small-card">
+                <img src={dr} alt="" className="blog-name" />
+                <p className="name-tag"> Rebecca Lee</p>
+              </div>
             </CardContent>
           </CardActionArea>
         </Card>
@@ -52,7 +54,10 @@ const Blog = () => {
               <Typography variant="h7" className="text-details">
                 6 Tips To Protect Your Mental Health When You’re Sick
               </Typography>
-              <CardHeader avatar={<Avatar src={dr} />} title="Rebecca Lee" className="name"/>
+              <div className="small-card">
+                <img src={dr} alt="" className="blog-name" />
+                <p className="name-tag"> Rebecca Lee</p>
+              </div>
             </CardContent>
           </CardActionArea>
         </Card>
@@ -69,7 +74,11 @@ const Blog = () => {
               <Typography variant="h7" className="text-details">
                 6 Tips To Protect Your Mental Health When You’re Sick
               </Typography>
-              <CardHeader avatar={<Avatar src={dr} />} title="Rebecca Lee" className="name"/>
+             
+              <div className="small-card">
+                <img src={dr} alt="" className="blog-name" />
+                <p className="name-tag"> Rebecca Lee</p>
+              </div>
             </CardContent>
           </CardActionArea>
         </Card>

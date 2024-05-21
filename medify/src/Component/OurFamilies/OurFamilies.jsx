@@ -22,14 +22,14 @@ const OurFamilies = () => {
       </div>
       <div className="familes-card">
         <div className="card-containerOne">
-          <div className="cards">
+          <div className="families-cards">
             <div className="main-box">
               <img src={hand} alt="hand" className="image" />
               <h3 className="number">5000+</h3>
               <p className="detail">Happy Patients</p>
             </div>
           </div>
-          <div className="cards">
+          <div className="families-cards">
             <img src={yellowH} alt="hospital" className="image" />
             <h3 className="number">1000+</h3>
             <p className="detail">Laboratories</p>
@@ -37,12 +37,12 @@ const OurFamilies = () => {
         </div>
         <div>
           <div className="card-containerTwo">
-            <div className="cards">
+            <div className="families-cards">
               <img src={building} alt="building" className="image" />
               <h3 className="number">200+</h3>
               <p className="detail">Hospitals</p>
             </div>
-            <div className="cards">
+            <div className="families-cards">
               <img src={person} alt="person" className="image" />
               <h3 className="number">700+</h3>
               <p className="detail">Expert Doctors</p>

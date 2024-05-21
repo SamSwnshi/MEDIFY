@@ -1,5 +1,5 @@
 .head-container {
-  height: 832px;
+  height: 760px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -10,11 +10,13 @@
     #e7f0ff 9.01%,
     rgba(232, 241, 255, 0.47) 89.11%
   );
-  border: 1ps solid red;
+margin-top: -50px;
 }
 .heading-img {
   width: 585px;
   height: 481px;
+  margin-top: -80px;
+  z-index: 88;
 }
 .intro {
   color: rgba(16, 40, 81, 1);

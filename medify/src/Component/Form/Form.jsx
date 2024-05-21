@@ -1,40 +1,46 @@
 import React from "react";
 import "./Form.css";
 
-import doctor from "../assets/Doctor.png"
+import doctor from "../assets/Doctor.png";
+import drug from "../assets/Drugstore.png";
+import Capsule from "../assets/Capsule.png";
+import Hosiptal from "../assets/Hospital.png";
+import Ambulance from "../assets/Ambulance.png";
 const Form = () => {
   return (
     <div className="form-wrapper">
-    <div className="form">
-      <div>
-        <input type="text" />
-        <input type="text" />
-        <button>Search</button>
+      <div className="form-rapper">
+      <div className="form">
+        <div className="form-tag">
+          <input type="text" className="form-input" placeholder="State" />
+          <input type="text" className="form-input" placeholder="City" />
+          <button className="form-search">Search</button>
+        </div>
+        <h2 className="heading-form">You may be looking for</h2>
       </div>
-      <h2>You may be looking for</h2>
       <div className="card-container">
         <div className="cards">
-            <img src={doctor} alt="doctor" className="image" />
-            <h3>Doctors</h3>
+          <img src={doctor} alt="doctor" className="image" />
+          <h3 className="form-card-name">Doctors</h3>
         </div>
         <div className="cards">
-            <img src={doctor} alt="doctor" className="image" />
-            <h3>Doctors</h3>
+          <img src={drug} alt="drug" className="image" />
+          <h3 className="form-card-name">Labs</h3>
         </div>
         <div className="cards">
-            <img src={doctor} alt="doctor" className="image" />
-            <h3>Doctors</h3>
+          <img src={Hosiptal} alt="Hospital" className="image" />
+          <h3 className="form-card-name">Hospital</h3>
         </div>
         <div className="cards">
-            <img src={doctor} alt="doctor" className="image" />
-            <h3>Doctors</h3>
+          <img src={Capsule} alt="Capsule" className="image" />
+          <h3 className="form-card-name">Medical Store</h3>
         </div>
         <div className="cards">
-            <img src={doctor} alt="doctor" className="image" />
-            <h3>Doctors</h3>
+          <img src={Ambulance} alt="Ambulance" className="image" />
+          <h3 className="form-card-name">Ambulance</h3>
         </div>
       </div>
-    </div>
+      </div>
     </div>
   );
 };

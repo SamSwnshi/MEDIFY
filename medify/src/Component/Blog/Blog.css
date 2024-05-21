@@ -11,10 +11,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
+
   height: 96px;
 }
-.card {
+.blog-card {
   width: 1162px;
   height: 477.77px;
   display: flex;
@@ -29,12 +29,12 @@
 .card-content {
   display: flex;
   flex-direction: column;
+  margin-top: -10;
 }
 .blog {
   font-size: 16px;
   font-weight: 600;
   color: rgba(42, 167, 255, 1);
-
 }
 .blog-faq {
   font-family: Poppins;
@@ -59,13 +59,24 @@
   line-height: 27px;
   color: rgba(27, 60, 116, 1);
 }
-.name{
-    font-family: Poppins;
+.blog-name {
+  width: 32px;
+  height: 32px;
+  gap: 10px;
+
+}
+.small-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.name-tag{
+  font-family: Poppins;
 font-size: 17px;
-font-weight: 500;
+font-weight: 600;
 line-height: 27px;
-
-
-    color: rgba(27, 60, 116, 1);
-
+text-align: left;
+color: rgba(27, 60, 116, 1);
+display: flex;
 }

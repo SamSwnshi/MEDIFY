@@ -1,3 +1,38 @@
-.medical-wrapper{
-height: 819px;
+.medical-wrapper {
+  height: 819px;
+  display: flex;
+  align-items: center;
+}
+.medical-image {
+  width: 370px;
+  height: 415px;
+}
+.medical-tabs {
+  width: 370px;
+  height: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+ text-align: center;
+  width: 194px;
+  height: 48px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(27, 60, 116, 1);
+  margin-top: -50px;
+  margin-bottom: -10px;
+}
+.position {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(42, 167, 255, 1);
+  margin-top: 10px;
 }
