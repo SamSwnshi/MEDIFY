@@ -19,24 +19,24 @@ const Form = () => {
         <h2 className="heading-form">You may be looking for</h2>
       </div>
       <div className="card-container">
-        <div className="cards">
-          <img src={doctor} alt="doctor" className="image" />
+        <div className="search-cards">
+          <img src={doctor} alt="doctor" className="search-image" />
           <h3 className="form-card-name">Doctors</h3>
         </div>
-        <div className="cards">
-          <img src={drug} alt="drug" className="image" />
+        <div className="search-cards">
+          <img src={drug} alt="drug" className="search-image" />
           <h3 className="form-card-name">Labs</h3>
         </div>
-        <div className="cards">
-          <img src={Hosiptal} alt="Hospital" className="image" />
+        <div className="search-cards">
+          <img src={Hosiptal} alt="Hospital" className="search-image" />
           <h3 className="form-card-name">Hospital</h3>
         </div>
-        <div className="cards">
-          <img src={Capsule} alt="Capsule" className="image" />
+        <div className="search-cards">
+          <img src={Capsule} alt="Capsule" className="search-image" />
           <h3 className="form-card-name">Medical Store</h3>
         </div>
-        <div className="cards">
-          <img src={Ambulance} alt="Ambulance" className="image" />
+        <div className="search-cards">
+          <img src={Ambulance} alt="Ambulance" className="search-image" />
           <h3 className="form-card-name">Ambulance</h3>
         </div>
       </div>

@@ -21,7 +21,7 @@ flex-direction: column;
   text-align: center;
   color: rgba(27, 60, 116, 1);
 }
-.cards {
+.spec-cards {
   width: 270px;
   height: 180px;
   background: rgba(250, 251, 254, 1);
@@ -37,7 +37,7 @@ flex-direction: column;
   display: flex;
   gap: 20px;
 }
-.image {
+.spec-image {
   width: 80px;
   height: 80px;
   border-radius: 0;

@@ -1,23 +1,22 @@
 import "./App.css";
-import Navbar from "./Component/Navbar/Navbar";
-import Home from "./Component/Home/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Home from "./Component/Home/Home";
+import FindDoctor from "./Component/FindDoctor/FindDoctor"
 
 function App() {
   return (
-    <div className="App">
-      <div className="heading">
-        <p>
-          The health and well-being of our patients and their health care team
-          will always be our priority, so we follow the best practices for
-          cleanliness
-        </p>
-      </div>
-      <Navbar />
-      <Home />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/finddoctor" element={<FindDoctor />}/>
+        
 
-     
-    </div>
+      </Routes>
+        
+        
+      
+    </BrowserRouter>
   );
 }
 

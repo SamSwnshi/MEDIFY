@@ -66,7 +66,7 @@
   display: flex;
   gap: 20px;
 }
-.cards {
+.search-cards {
   width: 203px !important;
   height: 153px;
   background: rgba(250, 251, 254, 1);
@@ -75,10 +75,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1ps solid red !important;
+ 
 }
 
-.image {
+.search-image {
   width: 60px;
   height: 60px;
 }

@@ -15,38 +15,38 @@ const Specialisation = () => {
       <h1 className="heading-text">Find By Specialisation</h1>
       <div >
         <div className="card-container">
-          <div className="cards">
-            <img src={drug} alt="drug" className="image" />
+          <div className="spec-cards">
+            <img src={drug} alt="drug" className="spec-image" />
             <h3 className="card-name">Dentistry</h3>
           </div>
-          <div className="cards">
-            <img src={scope} alt="scope" className="image" />
+          <div className="spec-cards">
+            <img src={scope} alt="scope" className="spec-image" />
             <h3 className="card-name">Primary Care</h3>
           </div>
-          <div className="cards">
-            <img src={rate} alt="rate" className="image" />
+          <div className="spec-cards">
+            <img src={rate} alt="rate" className="spec-image" />
             <h3 className="card-name">Cardiology</h3>
           </div>
-          <div className="cards">
-            <img src={heart} alt="heart" className="image" />
+          <div className="spec-cards">
+            <img src={heart} alt="heart" className="spec-image" />
             <h3 className="card-name">MRI Resonance</h3>
           </div>
         </div>
         <div className="card-container">
-          <div className="cards">
-            <img src={blood} alt="blood" className="image" />
+          <div className="spec-cards">
+            <img src={blood} alt="blood" className="spec-image" />
             <h3 className="card-name">Blood Test</h3>
           </div>
-          <div className="cards">
-            <img src={Immune} alt="Immune" className="image" />
+          <div className="spec-cards">
+            <img src={Immune} alt="Immune" className="spec-image" />
             <h3 className="card-name">Piscologist</h3>
           </div>
-          <div className="cards">
-            <img src={drug} alt="drug" className="image" />
+          <div className="spec-cards">
+            <img src={drug} alt="drug" className="spec-image" />
             <h3 className="card-name">Laboratory</h3>
           </div>
-          <div className="cards">
-            <img src={xray} alt="xray" className="image" />
+          <div className="spec-cards">
+            <img src={xray} alt="xray" className="spec-image" />
             <h3 className="card-name">X-Ray</h3>
           </div>
         </div>
