@@ -1,6 +1,6 @@
-.patient-wrapper{
-    height: 598px;
-    
+.patient-wrapper {
+  height: 598px;
+
   background: linear-gradient(
     81deg,
     #e7f0ff 9.01%,
@@ -10,17 +10,98 @@
   align-items: center;
   justify-content: center;
 }
-.patient-body{
+.patient-body {
   width: 1153px;
-height: 486px;
-border: 1px solid red;
-display: flex;
-align-items: center;
-justify-content: space-around;
+  height: 486px;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.patient-details{
+.patient-details {
   width: 563px;
   height: 375px;
-  border: 1px solid red;
+
+}
+.image-first {
+  width: 332px;
+  height: 275px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -220px;
+  margin-left: 210px;
+}
+.image-second {
+  width: 332px;
+  height: 275px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -40px;
+  margin-left: 90px;
+}
+.image-third {
+  width: 234px;
+  height: 100px;
+  position: absolute;
+  z-index: 3;
+  margin-top: -130px;
+  margin-left: 40px;
+}
+.image-container {
+  border: 1px solid blue;
+  display: flex;
+}
+.patient-subheading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+ margin-top: 10px;
+  color: rgba(42, 167, 255, 1);
+}
+.h1tag{
+  margin-top: -12px;
+  font-family: Poppins;
+}
+.heading1 {
+  
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: left;
+  color: rgba(27, 60, 116, 1);
+  
+}
+.heading2 {
+ 
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: left;
+  color: rgba(42, 167, 255, 1);
+  
+}
+.patient-paragraph {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  color: rgba(119, 130, 157, 1);
+  margin-top: -12px;
+}
+.verify-icons {
+  width: 20px;
+  height: 20px;
+  color: rgba(42, 167, 255, 1);
+  padding-right: 10px;
+}
+.tag {
+  display: flex;
+  align-items: center;
+  color: rgba(27, 60, 116, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: -12px;
 }

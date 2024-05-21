@@ -5,7 +5,7 @@ import "./Head.css";
 const Head = () => {
   return (
     <div>
-      <div className="container">
+      <div className="head-container">
         <div>
           <div>
             <h2 className="intro">Skip the travel! Find Online</h2>

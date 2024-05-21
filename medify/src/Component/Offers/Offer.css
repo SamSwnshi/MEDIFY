@@ -1,3 +1,5 @@
 .offers-wrapper{
     height: 435px;
+  display: flex;
+  align-items: center;
 }

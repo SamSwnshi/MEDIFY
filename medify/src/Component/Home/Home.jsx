@@ -1,15 +1,28 @@
 import React from "react";
-import "./Home.css"
-
-import Navbar from "../Navbar/Navbar";
+import "./Home.css";
+import Mobile from "../Mobile/Mobile";
 import Head from "../Head/Head";
-import Form from "../Form/Form";
+import Specialisation from "../Specialisation/Specialisation.jsx";
+import Blog from "../Blog/Blog.jsx";
+import Offers from "../Offers/Offers";
+import Medical from "../Medical/Medical";
+import Patient from "../Patient/Patient";
+import OurFamilies from "../OurFamilies/OurFamilies";
+import Footer from "../Footer/Footer";
+import Faq from "../FAQ/Faq";
 const Home = () => {
   return (
-    <div className="home">
-      <Navbar />
+    <div >
       <Head />
-      {/* <Form /> */}
+      <Offers />
+      {/* <Specialisation /> */}
+      <Medical />
+      <Patient />
+      <Blog />
+      <OurFamilies />
+      <Faq />
+      <Mobile />
+      <Footer />
     </div>
   );
 };
